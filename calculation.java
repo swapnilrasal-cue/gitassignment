@@ -4,8 +4,6 @@ class calculation
 {
   public static void main(String[] arg)
   {
-   int a=5,b=10,c,d,e;
-
    int a=-5,b=10,c,d;
  
    if(a<0)
@@ -34,6 +32,4 @@ class calculation
   {
    return x-y;
   }
-
- 
 }
