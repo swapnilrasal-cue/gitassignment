@@ -4,7 +4,7 @@ class calculation
 {
   public static void main(String[] arg)
   {
-   int a=5,b=10,c,d,e;
+  int a=5,b=10,c,d,e;
  
    if(a<0)
    {
@@ -21,9 +21,12 @@ class calculation
    d=substraction(a,b);
    System.out.println(" Substraction of two numbers is : "+d);
 
-    e=multiplication(a,b);
+   e=multiplication(a,b);
    System.out.println(" Multiplication of two numbers is : "+e);
 
+   f=division(a,b);
+   System.out.println("Division of two number is :"+f);
+  
 
  }
   static int addition(int x,int y)
@@ -38,4 +41,10 @@ class calculation
   {
    return x-y;
   }
+  static int division(int x,int y)
+  {
+   return x/y;
+  }
+
+
 }
